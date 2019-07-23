@@ -11,7 +11,7 @@ RUN npm install
 # Bundle app source
 COPY . /usr/src/app
 # Open port 80 for serving the webpage
-EXPOSE 9000
+EXPOSE 80
 
 # Run when the container launches
 CMD [ "npm", "start" ]
