@@ -4,7 +4,7 @@ var os = require("os");
 
 const app = express();
 app.use('/images', express.static(__dirname + "/images"));
-const port = 9000;
+const port = 80;
 var hostname = os.hostname();
 var appVersion= "1.1";
 app.get('/', (req, res) => {
